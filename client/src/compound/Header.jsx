@@ -13,7 +13,7 @@ const Navbar = () => {
       <h1 className='w-full text-3xl font-bold text-[black]'>React Train</h1>
       <ul className='hidden md:flex'>
         <li className='px-2 py-4'>Train Detail</li>
-        <li className='p-4'>Login</li>
+        <Link to ={"/login"} className='p-4'>Login</Link>
         
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
