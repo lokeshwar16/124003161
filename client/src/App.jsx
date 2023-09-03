@@ -1,9 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import React from "react"
+import Navbar from "./compound/Header"
+import Schedule from "./compound/schedule"
 
 function App() {
+  return <div>
+    <Navbar/>   
+  </div>
 
-  return <div className="bg-red-500">test heklllo</div>
+
 }
 
 export default App
